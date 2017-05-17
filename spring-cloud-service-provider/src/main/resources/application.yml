@@ -19,7 +19,7 @@ spring:
     platform: mysql
     url: jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=utf8
     username: root
-    password: password
+    password: v5ent
 #    schema: classpath:schema.sql
 #    data: classpath:data.sql
 logging:
@@ -28,7 +28,7 @@ logging:
 eureka:
   client:
     service-url:
-      defaultZone: http://peer1:8761/eureka 
+      defaultZone: http://XN043798:8761/eureka 
   instance:
     prefer-ip-address: true
   

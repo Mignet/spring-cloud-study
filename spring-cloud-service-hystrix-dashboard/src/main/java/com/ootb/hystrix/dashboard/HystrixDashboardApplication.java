@@ -9,7 +9,6 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 public class HystrixDashboardApplication {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		new SpringApplicationBuilder(HystrixDashboardApplication.class).web(true).run(args);
 	}
 

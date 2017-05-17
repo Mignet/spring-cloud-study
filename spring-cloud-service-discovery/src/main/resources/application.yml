@@ -11,7 +11,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     serviceUrl: 
-      defaultZone: http://peer1:8761/eureka #,http://peer2:8762/eureka
+      defaultZone: http://XN043798:8761/eureka #,http://peer2:8762/eureka
       
 #---
 #spring: 
